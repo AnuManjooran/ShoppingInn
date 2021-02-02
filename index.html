@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Inn</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body onload="loadtable()">
+    <header>
+        <h1 id="head">SHOPPING INN</h1>
+    </header>
+    <div id="items" >
+        <br>
+        <label for="select">Choose Your Category</label>
+        <br>
+        <select onchange='loadtable()' name='Departmentselect' id='select'>
+            <option value='all' selected>All</option>
+            <option value='Non-Veg'>Non-Veg</option>
+            <option value='Vegetables'>Vegetables</option>
+            <option value='Health'>Health</option>
+            <option value='Stationary'>Stationary</option>
+            <option value='Beauty'>Beauty</option>
+            <option value='Fruits'>Fruits</option>
+            <option value='Dairy'>Dairy</option>
+            <option value='Oil'>Oil</option>
+            <option value='Necessaries'>Necessaries</option>
+        </select>
+        <table id="tbl1">
+            
+        </table>
+        
+    </div>
+    <script src="shopping.js"></script>
+</body>
+</html>

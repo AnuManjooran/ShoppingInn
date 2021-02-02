@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:linear-gradient(to right, lightblue,limegreen) ;
+    background-size: cover;
+}
+header{
+    background-color: rgb(238, 186, 14);
+    height: 120px;
+    color:red;
+    text-align: center;
+    font-size: 30px;
+}
+h1{
+    padding-top: 30px;
+    letter-spacing: 1em;
+}
+#items{
+    text-align: center;
+}
+#items label{
+    font-size: 40px;
+    padding: 20px;
+
+}
+
+#select{
+    margin-top: 2%;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+}
+table{
+    width: 1000px;
+    border-collapse: collapse;
+    background-image: radial-gradient(circle, red, yellow, green);
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+th, td{
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+ 
+th
+{
+    text-transform: uppercase;
+    background-color: rgb(9, 238, 181);
+    color: rgb(73, 74, 77);
+}
+tr:hover {
+    background-color: black;
+    color: rgb(245, 13, 175);
+}
+
+
+
+
+  
+  
+  
